@@ -15,7 +15,7 @@ if [ -z $ETCD_TOKEN ]
 else
  cd /opt/etcd
  ./etcd \
-    -name $INSTANCE_ID
+    -name $INSTANCE_ID \
     -advertise-client-urls http://$IP_V4:2379,http://$IP_V4:4001 \
     -listen-client-urls http://0.0.0.0:2379,http://0.0.0.0:4001 \
     -initial-advertise-peer-urls http://$IP_V4:2380 \
