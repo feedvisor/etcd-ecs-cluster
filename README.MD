@@ -1,3 +1,8 @@
+### DEPRECATED ###
+
+Follow oficial guides to deploy and maintain ETCD
+This repository will be destroyed by the end of 2017
+
 ## etcd-ecs-cluster ##
 
 This docker image for quick deploy etcd cluster in AWS ECS service or on EC2 instances
